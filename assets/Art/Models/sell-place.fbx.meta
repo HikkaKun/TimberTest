@@ -1,0 +1,194 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3d272c4a-cf2e-4ae0-a713-43106fca08a8",
+  "files": [],
+  "subMetas": {
+    "d9826": {
+      "importer": "gltf-mesh",
+      "uuid": "3d272c4a-cf2e-4ae0-a713-43106fca08a8@d9826",
+      "displayName": "",
+      "id": "d9826",
+      "name": "sell-placement.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 624
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "950a3": {
+      "importer": "gltf-material",
+      "uuid": "3d272c4a-cf2e-4ae0-a713-43106fca08a8@950a3",
+      "displayName": "",
+      "id": "950a3",
+      "name": "sell-placement.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "460d2": {
+      "importer": "gltf-scene",
+      "uuid": "3d272c4a-cf2e-4ae0-a713-43106fca08a8@460d2",
+      "displayName": "",
+      "id": "460d2",
+      "name": "sell-place.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3d272c4a-cf2e-4ae0-a713-43106fca08a8@d9826"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3d272c4a-cf2e-4ae0-a713-43106fca08a8@950a3"
+      ],
+      "scenes": [
+        "3d272c4a-cf2e-4ae0-a713-43106fca08a8@460d2"
+      ]
+    },
+    "promoteSingleRootNode": false,
+    "meshOptimize": {
+      "enable": false
+    },
+    "materials": {
+      "3d272c4a-cf2e-4ae0-a713-43106fca08a8@950a3": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 242,
+              "g": 241,
+              "b": 204,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

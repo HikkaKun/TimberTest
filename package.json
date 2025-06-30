@@ -1,0 +1,10 @@
+{
+  "name": "TimberTest",
+  "uuid": "a399bf5d-e7bc-4d24-a5c3-afa5d22f49e2",
+  "creator": {
+    "version": "3.8.6"
+  },
+  "dependencies": {
+    "mobx": "^6.13.7"
+  }
+}

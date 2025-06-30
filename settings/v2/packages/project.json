@@ -1,0 +1,34 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 1080,
+      "height": 1080,
+      "fitWidth": false
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "script": {
+    "importMap": "project://import-map.json"
+  },
+  "physics": {
+    "autoSimulation": false,
+    "defaultMaterial": "9136d30e-f5cf-4be6-99a8-de02517b5fd1",
+    "fixedTimeStep": 0.0166667,
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "CHARACTER"
+      },
+      {
+        "index": 2,
+        "name": "SELL_PLACEMENT"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 3,
+      "1": 5,
+      "2": 2
+    }
+  }
+}

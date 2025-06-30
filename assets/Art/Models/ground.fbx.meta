@@ -1,0 +1,201 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6b4199ba-134e-479f-8e61-fb9102193a46",
+  "files": [],
+  "subMetas": {
+    "0af0b": {
+      "importer": "gltf-mesh",
+      "uuid": "6b4199ba-134e-479f-8e61-fb9102193a46@0af0b",
+      "displayName": "",
+      "id": "0af0b",
+      "name": "ground.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 674
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c0af4": {
+      "importer": "gltf-material",
+      "uuid": "6b4199ba-134e-479f-8e61-fb9102193a46@c0af4",
+      "displayName": "",
+      "id": "c0af4",
+      "name": "ground-0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2555d": {
+      "importer": "gltf-scene",
+      "uuid": "6b4199ba-134e-479f-8e61-fb9102193a46@2555d",
+      "displayName": "",
+      "id": "2555d",
+      "name": "ground.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6b4199ba-134e-479f-8e61-fb9102193a46@0af0b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6b4199ba-134e-479f-8e61-fb9102193a46@c0af4"
+      ],
+      "scenes": [
+        "6b4199ba-134e-479f-8e61-fb9102193a46@2555d"
+      ]
+    },
+    "meshOptimize": {
+      "enable": false
+    },
+    "meshSimplify": {
+      "enable": true,
+      "autoErrorRate": true,
+      "targetRatio": 0.06,
+      "errorRate": 0
+    },
+    "materials": {
+      "6b4199ba-134e-479f-8e61-fb9102193a46@c0af4": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 112,
+              "g": 143,
+              "b": 57,
+              "a": 255
+            },
+            "roughness": 1
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "promoteSingleRootNode": false
+  }
+}

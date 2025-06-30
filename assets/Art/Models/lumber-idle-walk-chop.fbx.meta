@@ -1,0 +1,391 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "141c1": {
+      "importer": "gltf-mesh",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@141c1",
+      "displayName": "",
+      "id": "141c1",
+      "name": "Lumber_Mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 792
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "356ea": {
+      "importer": "gltf-animation",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@356ea",
+      "displayName": "",
+      "id": "356ea",
+      "name": "Lumber_Chop.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9666666984558105
+        },
+        "events": [
+          {
+            "frame": 0.6333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.6333333333333333,
+            "func": "onHit",
+            "params": []
+          },
+          {
+            "frame": 1.6333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 1.6333333333333333,
+            "func": "onHit",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f181d": {
+      "importer": "gltf-animation",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@f181d",
+      "displayName": "",
+      "id": "f181d",
+      "name": "Lumber_Idle.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9333332777023315
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "8b7ef": {
+      "importer": "gltf-animation",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@8b7ef",
+      "displayName": "",
+      "id": "8b7ef",
+      "name": "Lumber_Walk.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9666666388511658
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 17
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "56c766c1-0751-468b-bd75-a8a71a9983ea"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c182": {
+      "importer": "gltf-material",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@2c182",
+      "displayName": "",
+      "id": "2c182",
+      "name": "male_chopper.001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "31cd0": {
+      "importer": "gltf-scene",
+      "uuid": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@31cd0",
+      "displayName": "",
+      "id": "31cd0",
+      "name": "lumber-idle-walk-chop.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "remap": "56c766c1-0751-468b-bd75-a8a71a9983ea",
+        "uri": "db://assets/Art/Textures/lumber_common.webp"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Lumber_Chop",
+        "duration": 1.9666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Chop",
+            "from": 0,
+            "to": 1.9666666984558105,
+            "wrapMode": 2,
+            "previousId": "356ea"
+          }
+        ]
+      },
+      {
+        "name": "Lumber_Idle",
+        "duration": 1.9333332777023315,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Idle",
+            "from": 0,
+            "to": 1.9333332777023315,
+            "wrapMode": 2,
+            "previousId": "f181d"
+          }
+        ]
+      },
+      {
+        "name": "Lumber_Walk",
+        "duration": 0.9666666388511658,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Walk",
+            "from": 0,
+            "to": 0.9666666388511658,
+            "wrapMode": 2,
+            "previousId": "8b7ef"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@141c1"
+      ],
+      "skeletons": [
+        "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@438fe"
+      ],
+      "textures": [
+        "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@7d6ab"
+      ],
+      "materials": [
+        "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@2c182"
+      ],
+      "scenes": [
+        "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@31cd0"
+      ]
+    },
+    "promoteSingleRootNode": false,
+    "materials": {
+      "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@2c182": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 231,
+              "g": 231,
+              "b": 231,
+              "a": 255
+            },
+            "mainTexture": {
+              "__uuid__": "1755e8b5-cd6b-470d-bd25-3cbfe8d79147@7d6ab",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

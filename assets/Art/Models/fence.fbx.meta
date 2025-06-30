@@ -1,0 +1,188 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7",
+  "files": [],
+  "subMetas": {
+    "841c1": {
+      "importer": "gltf-mesh",
+      "uuid": "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7@841c1",
+      "displayName": "",
+      "id": "841c1",
+      "name": "fence.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 34
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a953b": {
+      "importer": "gltf-material",
+      "uuid": "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7@a953b",
+      "displayName": "",
+      "id": "a953b",
+      "name": "fence.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4379c": {
+      "importer": "gltf-scene",
+      "uuid": "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7@4379c",
+      "displayName": "",
+      "id": "4379c",
+      "name": "fence.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7@841c1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7@a953b"
+      ],
+      "scenes": [
+        "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7@4379c"
+      ]
+    },
+    "materials": {
+      "61bd673a-f3a7-473c-a1f3-0fe527e4ffa7@a953b": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "DCC_APP_NAME": 2,
+            "HAS_EXPORTED_METALLIC": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 110,
+              "g": 47,
+              "b": 0,
+              "a": 255
+            },
+            "emissive": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "emissiveScale": 0,
+            "shininessExponent": 0,
+            "specularFactor": 0.25,
+            "transparencyFactor": 0,
+            "metallic": 0.8877514004707336
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "promoteSingleRootNode": false,
+    "meshOptimize": {
+      "enable": false
+    }
+  }
+}

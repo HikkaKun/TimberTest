@@ -1,0 +1,80 @@
+{
+  "name": "TimberTest",
+  "server": "",
+  "engineModulesConfigKey": "defaultConfig",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": false,
+  "buildMode": "normal",
+  "mangleProperties": true,
+  "md5Cache": false,
+  "skipCompressTexture": true,
+  "sourceMaps": false,
+  "overwriteProjectSettings": {
+    "includeModules": {
+      "gfx-webgl2": "off",
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting"
+    },
+    "macroConfig": {
+      "cleanupImageCache": "inherit-project-setting"
+    }
+  },
+  "nativeCodeBundleMode": "asmjs",
+  "polyfills": {
+    "asyncFunctions": false
+  },
+  "experimentalEraseModules": true,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "inlineEnum": true,
+  "useBuiltinServer": false,
+  "md5CacheOptions": {
+    "excludes": [],
+    "includes": [],
+    "replaceOnly": [],
+    "handleTemplateMd5Link": true
+  },
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": false,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "76b8a098-f427-40c0-8bc2-fff9abc64619",
+  "outputName": "web-mobile",
+  "taskName": "web-mobile",
+  "scenes": [
+    {
+      "url": "db://assets/Scenes/Entry.scene",
+      "uuid": "76b8a098-f427-40c0-8bc2-fff9abc64619"
+    },
+    {
+      "url": "db://assets/Scenes/Main.scene",
+      "uuid": "d3da5c44-fa23-4fcf-8d43-ad2b60915042"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "packages": {
+    "web-mobile": {
+      "useWebGPU": false,
+      "orientation": "auto",
+      "embedWebDebugger": false,
+      "__version__": "1.0.1"
+    },
+    "adsense-h5g-plugin": {
+      "enableAdsense": false,
+      "enableTestAd": false,
+      "__version__": "1.0.1",
+      "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+      "AFPHostDomain": "douyougame.com",
+      "otherAFPHostPropertyCode": "",
+      "otherAFPDomain": ""
+    },
+    "cocos-service": {
+      "configID": "8a34cb",
+      "services": []
+    }
+  },
+  "__version__": "1.3.9",
+  "logDest": "project://temp/builder/log/web-mobile29.06.2025 01-55.log"
+}

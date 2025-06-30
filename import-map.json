@@ -1,0 +1,5 @@
+{
+    "imports": {
+        "mobx": "./node_modules/mobx/dist/mobx.umd.production.min.js"
+    }
+}
