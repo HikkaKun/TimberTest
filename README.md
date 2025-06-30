@@ -2,16 +2,16 @@
 
 Тестовое задание Playable Ads Developer от ООО "Издаем игры"
 
+## Онлайн (single html)
+
+https://unique-brioche-64ad8b.netlify.app/
+
 ## Как установить
 
 Запустите в папке проекта, чтобы установить зависимости
 ```sh
 npm i
 ```
-
-## Онлайн (single html)
-
-https://unique-brioche-64ad8b.netlify.app/
 
 ## Билд
 
